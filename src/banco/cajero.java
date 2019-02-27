@@ -51,6 +51,7 @@ public class cajero {
         cliente c1 = new cliente(987654,1200.0,15000.0);
         boolean salir = false;
         do {
+            //muestra menu
             pintamenu();
             int opcion = sc.nextInt();
             
